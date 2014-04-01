@@ -1,8 +1,17 @@
 { "name": "express-helpers"
 , "description": "Helper functions for Express framework"
 , "version": "0.0.1"
-, "private": true
+, "author": {
+    "name": "Eric Schmitt"
+  , "email": "ericschmitt1@gmail.com"
+  }
+, "repository": {
+    "type": "git"
+  , "url": "http://github.com/eschmitt/express-helpers.git"
+  }
 , "dependencies": {
     "preludejs": "git://github.com/loop-recur/PreludeJS.git"
   }
+, "main": "./express-helpers.js"
+, "readmeFilename": "README.md"
 }
