@@ -13,5 +13,4 @@
     "preludejs": "git://github.com/loop-recur/PreludeJS.git"
   }
 , "main": "./express-helpers.js"
-, "readmeFilename": "README.md"
 }
