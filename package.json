@@ -1,0 +1,8 @@
+{ "name": "express-helpers"
+, "description": "Helper functions for Express framework"
+, "version": "0.0.1"
+, "private": true
+, "dependencies": {
+    "preludejs": "git://github.com/loop-recur/PreludeJS.git"
+  }
+}
