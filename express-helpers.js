@@ -13,8 +13,9 @@ var render = function (res, template, data) {
 //+ redirectOrSendError :: Response -> String -> String -> (Error -> IO)
   , redirectOrSendError = function (res, url, msg) {
       return function (err) {
-        var error_msg = msg || err.msg || err;
+        var error_msg = '';
         if (err) {
+          error_msg = msg || err.msg || err;
           console.log(err);
           res.send(500, error_msg);
         } else {
